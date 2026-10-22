@@ -1,0 +1,41 @@
+{
+  "model": "ResNet-50 (ImageNet-pretrained, transfer learning)",
+  "trainedOn": "Google Colab Tesla T4, 2026-10-19",
+  "setup": {
+    "epochs": 20,
+    "batchSize": 32,
+    "optimizer": "AdamW (backbone lr 1e-4, head lr 5e-4, wd 0.01)",
+    "scheduler": "CosineAnnealingLR",
+    "loss": "CrossEntropyLoss(label_smoothing=0.05)",
+    "sampling": "WeightedRandomSampler (inverse sqrt class freq)",
+    "frozenStages": ["conv1", "bn1", "layer1", "layer2"],
+    "trainImages": 2419,
+    "valImages": 520,
+    "testImages": 520,
+    "numClasses": 64
+  },
+  "best": { "epoch": 13, "valTop1": 0.375 },
+  "test": { "top1": 0.4, "top5": 0.719, "images": 520 },
+  "epochs_history": [
+    { "epoch": 1,  "trainLoss": 3.968, "trainAcc": 0.055, "valLoss": 3.629, "valAcc": 0.098, "valTop5": 0.350 },
+    { "epoch": 2,  "trainLoss": 3.521, "trainAcc": 0.150, "valLoss": 3.319, "valAcc": 0.181, "valTop5": 0.477 },
+    { "epoch": 3,  "trainLoss": 2.790, "trainAcc": 0.340, "valLoss": 3.118, "valAcc": 0.260, "valTop5": 0.558 },
+    { "epoch": 4,  "trainLoss": 2.181, "trainAcc": 0.504, "valLoss": 3.114, "valAcc": 0.250, "valTop5": 0.563 },
+    { "epoch": 5,  "trainLoss": 1.678, "trainAcc": 0.643, "valLoss": 3.019, "valAcc": 0.308, "valTop5": 0.627 },
+    { "epoch": 6,  "trainLoss": 1.420, "trainAcc": 0.726, "valLoss": 3.010, "valAcc": 0.323, "valTop5": 0.623 },
+    { "epoch": 7,  "trainLoss": 1.207, "trainAcc": 0.779, "valLoss": 3.025, "valAcc": 0.350, "valTop5": 0.638 },
+    { "epoch": 8,  "trainLoss": 1.052, "trainAcc": 0.826, "valLoss": 2.934, "valAcc": 0.344, "valTop5": 0.675 },
+    { "epoch": 9,  "trainLoss": 0.979, "trainAcc": 0.855, "valLoss": 2.979, "valAcc": 0.350, "valTop5": 0.679 },
+    { "epoch": 10, "trainLoss": 0.901, "trainAcc": 0.875, "valLoss": 2.981, "valAcc": 0.358, "valTop5": 0.665 },
+    { "epoch": 11, "trainLoss": 0.858, "trainAcc": 0.884, "valLoss": 2.951, "valAcc": 0.352, "valTop5": 0.677 },
+    { "epoch": 12, "trainLoss": 0.798, "trainAcc": 0.907, "valLoss": 2.998, "valAcc": 0.360, "valTop5": 0.687 },
+    { "epoch": 13, "trainLoss": 0.771, "trainAcc": 0.909, "valLoss": 2.951, "valAcc": 0.375, "valTop5": 0.679 },
+    { "epoch": 14, "trainLoss": 0.737, "trainAcc": 0.918, "valLoss": 2.964, "valAcc": 0.358, "valTop5": 0.690 },
+    { "epoch": 15, "trainLoss": 0.730, "trainAcc": 0.920, "valLoss": 2.977, "valAcc": 0.362, "valTop5": 0.679 },
+    { "epoch": 16, "trainLoss": 0.703, "trainAcc": 0.924, "valLoss": 2.979, "valAcc": 0.363, "valTop5": 0.683 },
+    { "epoch": 17, "trainLoss": 0.701, "trainAcc": 0.930, "valLoss": 2.988, "valAcc": 0.363, "valTop5": 0.679 },
+    { "epoch": 18, "trainLoss": 0.695, "trainAcc": 0.933, "valLoss": 2.986, "valAcc": 0.360, "valTop5": 0.681 },
+    { "epoch": 19, "trainLoss": 0.687, "trainAcc": 0.932, "valLoss": 2.957, "valAcc": 0.369, "valTop5": 0.688 },
+    { "epoch": 20, "trainLoss": 0.690, "trainAcc": 0.930, "valLoss": 2.959, "valAcc": 0.371, "valTop5": 0.687 }
+  ]
+}

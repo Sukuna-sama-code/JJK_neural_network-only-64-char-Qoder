@@ -1,0 +1,526 @@
+{
+ "overall": {
+  "top1": 0.2813,
+  "top5": 0.6471,
+  "test_images": 391
+ },
+ "per_class": {
+  "akari_nitta": {
+   "correct": 1,
+   "total": 2,
+   "acc": 0.5
+  },
+  "aoi_todo": {
+   "correct": 5,
+   "total": 13,
+   "acc": 0.3846
+  },
+  "arata_nitta": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "atsuya_kusakabe": {
+   "correct": 1,
+   "total": 3,
+   "acc": 0.3333
+  },
+  "bayer": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "choso": {
+   "correct": 7,
+   "total": 13,
+   "acc": 0.5385
+  },
+  "dagon": {
+   "correct": 1,
+   "total": 7,
+   "acc": 0.1429
+  },
+  "eso": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "finger_bearer": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "granny_ogami": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "hanami": {
+   "correct": 1,
+   "total": 7,
+   "acc": 0.1429
+  },
+  "haruta_shigemo": {
+   "correct": 0,
+   "total": 3,
+   "acc": 0.0
+  },
+  "jiro_awasaka": {
+   "correct": 1,
+   "total": 4,
+   "acc": 0.25
+  },
+  "jogo": {
+   "correct": 2,
+   "total": 10,
+   "acc": 0.2
+  },
+  "junpei_yoshino": {
+   "correct": 1,
+   "total": 5,
+   "acc": 0.2
+  },
+  "juzo_kumiya": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "kasumi_miwa": {
+   "correct": 0,
+   "total": 3,
+   "acc": 0.0
+  },
+  "kechizu": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "kenjaku": {
+   "correct": 1,
+   "total": 13,
+   "acc": 0.0769
+  },
+  "kento_nanami": {
+   "correct": 0,
+   "total": 12,
+   "acc": 0.0
+  },
+  "kiyotaka_ijichi": {
+   "correct": 1,
+   "total": 2,
+   "acc": 0.5
+  },
+  "kokichi_muta": {
+   "correct": 1,
+   "total": 5,
+   "acc": 0.2
+  },
+  "kokun": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "larue": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "mahito": {
+   "correct": 7,
+   "total": 20,
+   "acc": 0.35
+  },
+  "mahoraga": {
+   "correct": 1,
+   "total": 5,
+   "acc": 0.2
+  },
+  "mai_zenin": {
+   "correct": 3,
+   "total": 5,
+   "acc": 0.6
+  },
+  "maki_zenin": {
+   "correct": 4,
+   "total": 20,
+   "acc": 0.2
+  },
+  "manami_suda": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "masamichi_yaga": {
+   "correct": 0,
+   "total": 5,
+   "acc": 0.0
+  },
+  "master_tengen": {
+   "correct": 1,
+   "total": 2,
+   "acc": 0.5
+  },
+  "megumi_fushiguro": {
+   "correct": 10,
+   "total": 20,
+   "acc": 0.5
+  },
+  "mei_mei": {
+   "correct": 1,
+   "total": 6,
+   "acc": 0.1667
+  },
+  "miguel_oduol": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "mimiko_hasaba": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "misato_kuroi": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "momo_nishimiya": {
+   "correct": 2,
+   "total": 2,
+   "acc": 1.0
+  },
+  "nanako_hasaba": {
+   "correct": 1,
+   "total": 3,
+   "acc": 0.3333
+  },
+  "naobito_zenin": {
+   "correct": 1,
+   "total": 4,
+   "acc": 0.25
+  },
+  "naoya_zenin": {
+   "correct": 1,
+   "total": 9,
+   "acc": 0.1111
+  },
+  "nobara_kugisaki": {
+   "correct": 8,
+   "total": 15,
+   "acc": 0.5333
+  },
+  "noritoshi_kamo": {
+   "correct": 1,
+   "total": 4,
+   "acc": 0.25
+  },
+  "panda": {
+   "correct": 6,
+   "total": 8,
+   "acc": 0.75
+  },
+  "rika_orimoto": {
+   "correct": 1,
+   "total": 6,
+   "acc": 0.1667
+  },
+  "riko_amanai": {
+   "correct": 1,
+   "total": 4,
+   "acc": 0.25
+  },
+  "ryomen_sukuna": {
+   "correct": 8,
+   "total": 20,
+   "acc": 0.4
+  },
+  "satoru_gojo": {
+   "correct": 5,
+   "total": 20,
+   "acc": 0.25
+  },
+  "shiu_kong": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "shoko_ieiri": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "smallpox_deity": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "suguru_geto": {
+   "correct": 5,
+   "total": 12,
+   "acc": 0.4167
+  },
+  "takada_chan": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "takuma_ino": {
+   "correct": 0,
+   "total": 4,
+   "acc": 0.0
+  },
+  "toge_inumaki": {
+   "correct": 0,
+   "total": 6,
+   "acc": 0.0
+  },
+  "toji_fushiguro": {
+   "correct": 5,
+   "total": 13,
+   "acc": 0.3846
+  },
+  "toshihisa_negi": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "uraume": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "utahime_iori": {
+   "correct": 2,
+   "total": 2,
+   "acc": 1.0
+  },
+  "yoshinobu_gakuganji": {
+   "correct": 0,
+   "total": 2,
+   "acc": 0.0
+  },
+  "yu_haibara": {
+   "correct": 0,
+   "total": 1,
+   "acc": 0.0
+  },
+  "yuji_itadori": {
+   "correct": 3,
+   "total": 20,
+   "acc": 0.15
+  },
+  "yuki_tsukumo": {
+   "correct": 2,
+   "total": 5,
+   "acc": 0.4
+  },
+  "yuta_okkotsu": {
+   "correct": 8,
+   "total": 20,
+   "acc": 0.4
+  }
+ },
+ "confused": [
+  [
+   "rika_orimoto",
+   "yuta_okkotsu",
+   4
+  ],
+  [
+   "yuji_itadori",
+   "ryomen_sukuna",
+   4
+  ],
+  [
+   "mahoraga",
+   "ryomen_sukuna",
+   3
+  ],
+  [
+   "maki_zenin",
+   "yuta_okkotsu",
+   3
+  ],
+  [
+   "ryomen_sukuna",
+   "yuji_itadori",
+   3
+  ],
+  [
+   "satoru_gojo",
+   "ryomen_sukuna",
+   3
+  ],
+  [
+   "satoru_gojo",
+   "jogo",
+   3
+  ],
+  [
+   "suguru_geto",
+   "yuta_okkotsu",
+   3
+  ],
+  [
+   "aoi_todo",
+   "hanami",
+   2
+  ],
+  [
+   "aoi_todo",
+   "suguru_geto",
+   2
+  ],
+  [
+   "granny_ogami",
+   "toji_fushiguro",
+   2
+  ],
+  [
+   "hanami",
+   "noritoshi_kamo",
+   2
+  ],
+  [
+   "jiro_awasaka",
+   "yuji_itadori",
+   2
+  ],
+  [
+   "jogo",
+   "hanami",
+   2
+  ],
+  [
+   "jogo",
+   "ryomen_sukuna",
+   2
+  ],
+  [
+   "kenjaku",
+   "suguru_geto",
+   2
+  ],
+  [
+   "kenjaku",
+   "smallpox_deity",
+   2
+  ],
+  [
+   "kento_nanami",
+   "mei_mei",
+   2
+  ],
+  [
+   "kento_nanami",
+   "haruta_shigemo",
+   2
+  ],
+  [
+   "kokichi_muta",
+   "panda",
+   2
+  ],
+  [
+   "mahito",
+   "kenjaku",
+   2
+  ],
+  [
+   "mahito",
+   "nobara_kugisaki",
+   2
+  ],
+  [
+   "mai_zenin",
+   "maki_zenin",
+   2
+  ],
+  [
+   "maki_zenin",
+   "mai_zenin",
+   2
+  ],
+  [
+   "maki_zenin",
+   "ryomen_sukuna",
+   2
+  ],
+  [
+   "megumi_fushiguro",
+   "satoru_gojo",
+   2
+  ],
+  [
+   "nanako_hasaba",
+   "mimiko_hasaba",
+   2
+  ],
+  [
+   "naoya_zenin",
+   "noritoshi_kamo",
+   2
+  ],
+  [
+   "naoya_zenin",
+   "ryomen_sukuna",
+   2
+  ],
+  [
+   "naoya_zenin",
+   "yuta_okkotsu",
+   2
+  ],
+  [
+   "nobara_kugisaki",
+   "panda",
+   2
+  ],
+  [
+   "satoru_gojo",
+   "yuta_okkotsu",
+   2
+  ],
+  [
+   "satoru_gojo",
+   "hanami",
+   2
+  ],
+  [
+   "suguru_geto",
+   "satoru_gojo",
+   2
+  ],
+  [
+   "toji_fushiguro",
+   "satoru_gojo",
+   2
+  ],
+  [
+   "toji_fushiguro",
+   "mai_zenin",
+   2
+  ],
+  [
+   "yuji_itadori",
+   "choso",
+   2
+  ],
+  [
+   "yuji_itadori",
+   "junpei_yoshino",
+   2
+  ],
+  [
+   "yuta_okkotsu",
+   "rika_orimoto",
+   2
+  ],
+  [
+   "yuta_okkotsu",
+   "suguru_geto",
+   2
+  ]
+ ]
+}

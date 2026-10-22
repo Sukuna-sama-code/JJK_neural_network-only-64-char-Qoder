@@ -1,0 +1,19 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.torchenv/
+dataset_v3/
+model/*.onnx
+model/*.pt
+eval_*.done
+
+# AI Studio template leftovers + experiment caches
+.aistudio/
+metadata.json
+.env.example
+model/clip_*
